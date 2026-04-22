@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김경민 포트폴리오 대시보드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <nav class="sidebar">
+        <div class="logo">
+            <span class="logo-text">KM</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> <span>홈</span></a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> <span>경력</span></a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span>학력</span></a></li>
+            <li><a href="#skills"><i class="fas fa-flask"></i> <span>핵심역량</span></a></li>
+            <li><a href="#research"><i class="fas fa-microscope"></i> <span>연구성과</span></a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">김경민 <span class="name-en">Kim Kyung Min</span></h1>
+                <p class="hero-subtitle fade-in">신약개발 연구원</p>
+                <div class="contact-grid fade-in">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>crystall26@naver.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>010-6551-0226</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>1991.03.05 (만 35세)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Row -->
+        <section class="stats-row">
+            <a href="#experience" class="stat-link">
+                <div class="stat-card">
+                    <span class="stat-value">1년&nbsp;4개월</span> <span class="stat-label">총&nbsp;경력</span>
+                </div>
+            </a>
+            <a href="#research" class="stat-link">
+                <div class="stat-card">
+                    <span class="stat-value">5편</span> <span class="stat-label">학술&nbsp;논문</span>
+                </div>
+            </a>
+            <a href="#patent" class="stat-link">
+                <div class="stat-card">
+                    <span class="stat-value">1건</span> <span class="stat-label">특허&nbsp;출원</span>
+                </div>
+            </a>
+            <div class="stat-card">
+                <span class="stat-value">500+</span> <span class="stat-label">스크리닝&nbsp;화합물</span>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>㈜유한양행 <span class="position">합성신약2팀 | 사원</span></h3>
+                            <span class="date">2024.03 ~ 2025.03 <small>(1년 1개월)</small></span>
+                        </div>
+                        <ul class="task-list">
+                            <li class="has-details">
+                                <details>
+                                    <summary><strong>비만 치료제 신약 개발 연구과제:</strong> 300여 종의 신규화합물 in vitro 약효 평가</summary>
+                                    <div class="details-content">HTRF cAMP assay</div>
+                                </details>
+                            </li>
+                            <li class="has-details">
+                                <details>
+                                    <summary><strong>알츠하이머 치료제 신약 개발 연구과제:</strong> 200여 종 신규화합물 in vitro 약효 평가</summary>
+                                    <div class="details-content">AlphaLISA</div>
+                                </details>
+                            </li>
+                            <li class="has-details">
+                                <details>
+                                    <summary><strong>YH Library screening</strong></summary>
+                                    <div class="details-content">Luciferase assay</div>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>메디스팬 <span class="position">신약개발본부 | 연구원</span></h3>
+                            <span class="date">2023.11 ~ 2024.01 <small>(3개월)</small></span>
+                        </div>
+                        <ul class="task-list">
+                            <li><strong>단백질 의약품 안정성 평가:</strong> pH 4.5~8.0 범위 최적 제형 조건 탐색</li>
+                            <li><strong>분석 기술:</strong> SDS-PAGE, CBB, Silver staining 후 단백질 main band intensity 분석</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section secondary-bg">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-award"></i></div>
+                    <div class="edu-info">
+                        <h4>서울대학교 약학대학원</h4>
+                        <p class="edu-major">석사 | 약학과 (약학 전공)</p>
+                        <p class="edu-date">2020.09 ~ 2022.08</p>
+                        <span class="gpa">GPA: 4.27 / 4.5</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <div class="edu-info">
+                        <h4>경희대학교</h4>
+                        <p class="edu-major">학사 | 약과학과</p>
+                        <p class="edu-date">2017.03 ~ 2020.08</p>
+                        <span class="gpa">GPA: 3.37 / 4.5</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <div class="edu-info">
+                        <h4>충북대학교</h4>
+                        <p class="edu-major">학사 | 화학과</p>
+                        <p class="edu-date">2010.03 ~ 2016.08</p>
+                        <span class="gpa">GPA: 3.54 / 4.5</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Skills -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Experimental Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-dna"></i> Cell Culture</h3>
+                    <div class="tags">
+                        <span class="tag">CHO cell</span>
+                        <span class="tag">HEK293T</span>
+                        <span class="tag">Adipocyte Differentiation</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-vial"></i> in vitro</h3>
+                    <div class="tags">
+                        <span class="tag">EC50 Analysis</span>
+                        <span class="tag">cAMP Assay</span>
+                        <span class="tag">AlphaLISA</span>
+                        <span class="tag">Western blot</span>
+                        <span class="tag">qRT-PCR</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-mouse"></i> in vivo</h3>
+                    <div class="tags">
+                        <span class="tag">Obesity Mouse Model</span>
+                        <span class="tag">PO/IP Administration</span>
+                        <span class="tag">Sacrifice</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research & Publications -->
+        <section id="research" class="section secondary-bg">
+            <h2 class="section-title">Research & Publications</h2>
+            <div class="publication-list">
+                <div class="pub-item">
+                    <div class="pub-number">01</div>
+                    <div class="pub-content">
+                        <p class="pub-authors">Kim, K., Im, H., Son, Y. et al.</p>
+                        <h4 class="pub-title">Anti-obesity effects of the dual-active adenosine A2A/A3 receptor-ligand LJ-4378</h4>
+                        <p class="pub-journal">Int J Obes 46, 2128–2136 (2022) | <span class="badge">제1저자</span></p>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-number">02</div>
+                    <div class="pub-content">
+                        <p class="pub-authors">Im H, Lee J, Kim K, Son Y, Lee YH.</p>
+                        <h4 class="pub-title">Anti-obesity effects of heat-transformed green tea extract through the activation of adipose tissue thermogenesis</h4>
+                        <p class="pub-journal">Nutr Metab (Lond). 2022 Mar 3;19(1):14</p>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-number">03</div>
+                    <div class="pub-content">
+                        <p class="pub-authors">Im H, Park JH, Im S, Han J, Kim K, Lee YH.</p>
+                        <h4 class="pub-title">Regulatory roles of G-protein coupled receptors in adipose tissue metabolism and their therapeutic potential</h4>
+                        <p class="pub-journal">Arch Pharm Res. 2021;44:133–45</p>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-number">04</div>
+                    <div class="pub-content">
+                        <p class="pub-authors">Cho YK, Son Y, Saha A, Kim D, Choi C, Kim M, et al.</p>
+                        <h4 class="pub-title">STK3/STK4 signalling in adipocytes regulates mitophagy and energy expenditure</h4>
+                        <p class="pub-journal">Nat Metab. 2021;3:428–41</p>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-number">05</div>
+                    <div class="pub-content">
+                        <p class="pub-authors">Choi C, Son Y, Kim J, Cho YK, Saha A, Kim M, et al.</p>
+                        <h4 class="pub-title">TM4SF5 Knockout Protects Mice From Diet-Induced Obesity Partly by Regulating Autophagy in Adipose Tissue</h4>
+                        <p class="pub-journal">Diabetes. 2021;70:2000–13</p>
+                    </div>
+                </div>
+                <!-- Patent -->
+                <div id="patent" class="patent-card">
+                    <div class="patent-header">
+                        <i class="fas fa-certificate"></i>
+                        <span>국내 특허 출원</span>
+                    </div>
+                    <p class="patent-id">PATENT-2022-0091348 (2022.07.22)</p>
+                    <p class="patent-title">아데노신 수용체에 작용하는 리간드 내지 이를 포함하는 비만 예방, 개선 또는 치료용 조성물</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kim Kyung Min Portfolio. Designed with professionalism.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Update active class
+                document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
